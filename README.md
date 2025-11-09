@@ -31,5 +31,10 @@ INSERT INTO students (first_name, last_name, email, enrollment_date) VALUES
 ### How to run
 
 1. Using pgAdmin, create a new database and execute the database setup listed above
-2. Run the project through intellij using Maven
-3. Once running enter the url of your database as well as the user and password.
+2. Clone the GitHub repository using 'git clone https://github.com/KavenMuralei/COMP3005A3.git'
+3. Open and then run the project through IntelliJ using Maven
+3. Once running enter the url of your database as well as the user and password to begin using the application
+
+
+### Video demonstration
+https://youtu.be/GcCNwp2Y1XE

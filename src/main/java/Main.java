@@ -8,9 +8,9 @@ import java.sql.Statement;
 import java.util.Scanner;
 
 public class Main {
-//    String url = "jdbc:postgresql://localhost:5432/a3";
-//    String user = "postgres";
-//    String password = "admin";
+//    url = "jdbc:postgresql://localhost:5432/a3";
+//    user = "postgres";
+//    password = "admin";
     private static String url; //link to the database with the student table
     private static String user; // username of the database
     private static String password;//password for the database
