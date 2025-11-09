@@ -1,6 +1,5 @@
-## Kaven Muraleitharan
-#### SN: 101305963
-#### COMP3005 A3
+# COMP3005 A3
+## Author: Kaven Muraleitharan
 
 ### Description
 This is an application which performs basic CRUD operations on a table of students
@@ -33,3 +32,4 @@ INSERT INTO students (first_name, last_name, email, enrollment_date) VALUES
 
 1. Using pgAdmin, create a new database and execute the database setup listed above
 2. Run the project through intellij using Maven
+3. Once running enter the url of your database as well as the user and password.
