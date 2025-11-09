@@ -55,6 +55,11 @@ public class Main {
         (typically if the SQL statement has an error, then the user inputted the incorrect format for the database)
          */
         try{
+            //reject empty or null fields
+            if (first_name == null || first_name.trim().isEmpty() || last_name == null || last_name.trim().isEmpty() || email == null || email.trim().isEmpty()) {
+                System.out.println("Error: first name, last name, and email cannot be empty.");
+                return; // Stop execution
+            }
             Class.forName("org.postgresql.Driver");
             Connection connection = DriverManager.getConnection(url,user,password);
             Statement statement = connection.createStatement();
@@ -77,6 +82,9 @@ public class Main {
         (typically if the SQL statement has an error, then the user inputted the incorrect format for the database)
          */
         try{
+            if(email == null){
+                System.out.println("Error: email cannot be null");
+            }
             Class.forName("org.postgresql.Driver");
             Connection connection = DriverManager.getConnection(url,user,password);
             Statement statement = connection.createStatement();
