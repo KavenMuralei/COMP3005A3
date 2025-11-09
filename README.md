@@ -1,6 +1,12 @@
 # COMP3005 A3
 ## Author: Kaven Muraleitharan
 
+### Repository
+https://github.com/KavenMuralei/COMP3005A3/
+
+### Video demonstration
+https://youtu.be/GcCNwp2Y1XE
+
 ### Description
 This is an application which performs basic CRUD operations on a table of students
 
@@ -36,5 +42,3 @@ INSERT INTO students (first_name, last_name, email, enrollment_date) VALUES
 3. Once running enter the url of your database as well as the user and password to begin using the application
 
 
-### Video demonstration
-https://youtu.be/GcCNwp2Y1XE
